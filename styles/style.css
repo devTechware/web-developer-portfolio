@@ -117,3 +117,41 @@ nav ul li a {
   padding-right: 38px;
   width: 580px;
 }
+
+/* About Me Section Styles */
+
+.about-container {
+  margin: 130px 230px 0px 230px;
+  padding: 130px 155px;
+}
+
+.about {
+  background-color: white;
+  text-align: center;
+  padding: 5px;
+}
+
+.about-title {
+  font-weight: bold;
+  font-size: 35px;
+}
+
+.about-description {
+  margin-top: 30px;
+  color: #757575;
+  font-size: 18px;
+}
+
+.items {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.item-title {
+  color: #757575;
+}
+
+.item-description {
+  font-weight: bold;
+}
