@@ -9,6 +9,7 @@ body {
   font-weight: normal;
   font-style: normal;
   font-variation-settings: "wdth" 100;
+  color: #181818;
 }
 
 /* Shared Style */
@@ -38,7 +39,7 @@ header {
     url("../images/header_bg.png");
   background-position: top left, bottom right;
   background-repeat: no-repeat;
-  padding: 0px 230px 130px 230px;
+  background-color: #fff8f3;
 }
 
 /* Navigation Section Style */
@@ -48,11 +49,13 @@ nav {
   justify-content: space-between;
   align-items: center;
   padding-top: 50px;
+  padding: 20px 230px 40px 230px;
 }
 
 .nav-title {
   font-size: 45px;
   font-weight: 800;
+  cursor: pointer;
 }
 
 nav ul {
@@ -69,4 +72,48 @@ nav ul li a {
   text-decoration: none;
   font-size: 20px;
   color: #474747;
+}
+
+/* Banner Section Styles */
+
+.banner {
+  display: flex;
+  align-items: center;
+}
+
+.banner-content {
+  padding-left: 230px;
+}
+
+.banner-greeting {
+  color: #474747;
+  font-weight: 600;
+  font-size: 40px;
+}
+
+.banner-title {
+  font-weight: bold;
+  font-size: 75px;
+}
+
+.banner-description {
+  color: #757575;
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+
+.btn-contact {
+  padding: 18px 36px;
+  font-weight: bold;
+  font-size: 20px;
+  color: #fd6e0a;
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid #fd6e0a;
+  margin-left: 30px;
+}
+
+.banner-profile-picture {
+  padding-right: 38px;
+  width: 580px;
 }
