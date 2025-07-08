@@ -8,7 +8,6 @@ body {
   font-optical-sizing: auto;
   font-weight: normal;
   font-style: normal;
-  font-variation-settings: "wdth" 100;
   color: #181818;
 }
 
@@ -154,4 +153,45 @@ nav ul li a {
 
 .item-description {
   font-weight: bold;
+}
+
+/* Skills Container Styles */
+
+.skills-container {
+  margin: 130px 230px 0px 230px;
+  text-align: center;
+}
+
+.skills-title {
+  font-weight: bold;
+  font-size: 35px;
+}
+
+.skills-description {
+  font-size: 18px;
+  color: #757575;
+  margin: 30px 115px 50px 115px;
+}
+
+.skills {
+  display: flex;
+  gap: 24px;
+  text-align: left;
+}
+
+.skill {
+  box-shadow: 0 6px 50px 0 rgba(0, 0, 0, 0.06);
+  border-radius: 5px;
+  padding: 30px;
+}
+
+.skill-title {
+  margin: 30px 0 20px 0;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.skill-description {
+  font-size: 16px;
+  color: #757575;
 }
