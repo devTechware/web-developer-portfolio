@@ -34,11 +34,13 @@ body {
 /* Header section Style */
 
 header {
+  max-width: 100%;
   background-image: url("../images/developer.png"),
     url("../images/header_bg.png");
   background-position: top left, bottom right;
   background-repeat: no-repeat;
   background-color: #fff8f3;
+  width: fit-content;
 }
 
 /* Navigation Section Style */
@@ -194,4 +196,53 @@ nav ul li a {
 .skill-description {
   font-size: 16px;
   color: #757575;
+}
+
+/* Resume Section Styles */
+
+.resume {
+  margin: 130px 230px 130px 230px;
+}
+.resume-title {
+  font-weight: bold;
+  font-size: 35px;
+  text-align: center;
+  margin-bottom: 110px;
+}
+
+.resume-container {
+  display: flex;
+  gap: 24px;
+}
+
+.education-column-title,
+.experience-column-title {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.education-title,
+.experience-title {
+  font-weight: bold;
+  font-size: 25px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.education-sub-title,
+.experience-sub-title {
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #757575;
+}
+
+.education-description,
+.experience-description {
+  color: #757575;
+  margin-bottom: 30px;
+}
+
+.resume-btn {
+  text-align: center;
 }
